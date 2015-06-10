@@ -1,0 +1,33 @@
+@import url(fonts/cmun-typewriter.css);
+
+.screenplay {
+	width: 80%;
+	margin: 0 auto;
+	font-family: Computer Modern Typewriter;
+}
+
+.screenplay h1, .screenplay dd {
+	font-size: 100%;
+}
+
+.screenplay h1, .screenplay dd, .screenplay span {
+	text-transform: uppercase;
+}
+
+.screenplay dialog {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.screenplay dd {
+	text-align: center;
+}
+
+.screenplay dt {
+	margin: 1em 0;
+}
+
+.screenplay dd + dt {
+	margin-top: 0;
+}
