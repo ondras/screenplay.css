@@ -6,6 +6,12 @@
 	font-family: Computer Modern Typewriter;
 }
 
+.screenplay dialog {
+	position: static;
+	border: none;
+	padding: 0;
+}
+
 .screenplay h1, .screenplay dd {
 	font-size: 100%;
 }
